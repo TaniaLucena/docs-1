@@ -1,10 +1,10 @@
 
-.. _procedures/openproject:
+.. _general/procedures-openproject/openproject:
 
 
-====
+============
 Open Project
-====
+============
 
 .. toctree::
     :maxdepth: 2

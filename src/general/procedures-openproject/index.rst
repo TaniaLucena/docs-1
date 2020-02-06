@@ -1,4 +1,4 @@
-.. _src/general/procedures:
+.. _src/general/procedures-openproject:
 
 ======================================================
 Procedimientos de E.R.P. Consultores y Asociados, C.A.

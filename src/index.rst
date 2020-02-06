@@ -12,11 +12,29 @@ Tabla de Contenido
 ==================
 
 .. toctree::
+    :caption: E.R.P. CONSULTORES Y ASOCIADOS, C.A.
     :maxdepth: 2
+    :numbered:
 
-    general/procedures/index
-    lve/index
-    adempiere/index
+    general/procedures-openproject/index
+
+.. toctree::
+    :caption: LOCALIZACIÓN DE ADEMPIERE (VENEZUELA)
+    :maxdepth: 2
+    :numbered:
+
+    lve/documentation-lve/human-resource-payroll/index
+    lve/documentation-lve/standard-coding/index
+    lve/documentation-lve/fiscal-printer/index
+    lve/documentation-lve/procedures/index
+
+.. toctree::
+    :caption: PROCEDIMIENTOS DE ADEMPIERE
+    :maxdepth: 2
+    :numbered:
+
+    adempiere/vertical/index
+    adempiere/standard-processes/index
 
 Para Mayor Información
 ======================

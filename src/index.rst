@@ -35,7 +35,7 @@ Tabla de Contenido
     :numbered:
 
     adempiere/vertical/index
-    adempiere/standar-processes/index
+    adempiere/standard-processes/index
 
 Para Mayor Información
 ======================

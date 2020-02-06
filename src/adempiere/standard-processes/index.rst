@@ -9,9 +9,8 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
 Los procedimientos estándares de ADempiere en la versión 3.9.2 de la localización Venezuela, contempla los siguientes puntos.
 
 .. toctree::
-    :maxdepth: 1
-    :numbered:
-
+    :maxdepth: 2
+    
     master/index
     quote-to-invoice/index
     requisition-to-invoice/index

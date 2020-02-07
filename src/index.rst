@@ -18,17 +18,15 @@ Tabla de Contenido
 
     general/procedures-openproject/index
 
-.. toctree::
     :caption: LOCALIZACIÓN DE ADEMPIERE (VENEZUELA)
     :maxdepth: 2
     :numbered:
-
+    
     lve/documentation-lve/human-resource-payroll/index
     lve/documentation-lve/standard-coding/index
     lve/documentation-lve/fiscal-printer/index
     lve/documentation-lve/procedures/index
 
-.. toctree::
     :caption: PROCEDIMIENTOS DE ADEMPIERE
     :maxdepth: 2
     :numbered:

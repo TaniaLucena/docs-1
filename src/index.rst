@@ -22,6 +22,7 @@ Tabla de Contenido
     :maxdepth: 2
     :numbered:
     
+    lve/documentation-lve/index
     lve/documentation-lve/human-resource-payroll/index
     lve/documentation-lve/standard-coding/index
     lve/documentation-lve/fiscal-printer/index
@@ -31,6 +32,7 @@ Tabla de Contenido
     :maxdepth: 2
     :numbered:
 
+    adempiere/index
     adempiere/vertical/index
     adempiere/standard-processes/index
 

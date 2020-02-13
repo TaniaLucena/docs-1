@@ -13,5 +13,5 @@ Con la finalidad de mantener las responsabilidades del usuario y para controlar 
 .. toctree::
     :maxdepth: 2
 
-    role-definition/index
-    role-configuration/index
+    role-definition
+    role-configuration

@@ -740,6 +740,92 @@ Posterior a ello, el mismo puede acceder sólo a la información necesaria para 
 +-------------------+--------------------+---------------------------------+-------------------+
 
 
+======================================================== ======================================================== ======================================================== ========================================================
+
+======================================================== ======================================================== ======================================================== ======================================================== 
+- **Facturas Asignadas a Recepciones**                   - **Usuario**                                            - **Organización**                                       - **Localización**
+- **Socio del Negocio**                                  - **Preferencia**                                        - **Configurar Proyecto**                                - **Diario Contable**
+- **Almacén y Ubicaciones**                              - **Producto**                                           - **Condición de Pago**                                  - **Transportista**
+- **Órdenes de Venta**                                   - **Categoría de Producto**                              - **Lista de Precios**                                   - **Programa de Facturación**
+- **Campaña de Mercadeo**                                - **Canal de Mercadeo**                                  - **Región de Ventas**                                   - **Presupuesto Contable**
+- **Banco**                                              - **Morosidad**                                          - **Retención (1099)**                                   - **Cargo**
+- **Asientos Contables**                                 - **Documentos por Cobrar**                              - **Inventario Físico**                                  - **Entregas (Cliente)**
+- **Movimiento de Inventario**                           - **Reconocimiento de Ingresos**                         - **Inventario Perpetuo**                                - **Detalles del Proveedor**
+- **Saludo**                                             - **Órdenes de Compra**                                  - **Documentos por Pagar**                               - **Recepción de Productos**
+- **Definición de EDI**                                  - **Transacción de EDI**                                 - **Producción**                                         - **Grupo de Socios del Negocio**
+- **Aviso**                                              - **Estado de Cuentas Bancario**                         - **Pago/Cobro**                                         - **Atributo Personalizado**
+- **Caja Chica**                                         - **Diario de Caja Chica**                               - **Solicitud**                                          - **Plantilla de Correo**
+- **Consulta de Asignación**                             - **Selección de Pago**                                  - **Definición de Comisiones**                           - **Ciclo de Proyecto**
+- **Cálculo de Comisiones**                              - **Informe Financiero**                                 - **Columna de Informe**                                 - **Línea de Informe**
+- **Nivel de Servicio**                                  - **Encontrar (uso indirecto)**                          - **Transacciones de Materiales (uso indirecto)**        - **Órdenes de Compra Asignadas a Recibos y Facturas**
+- **Esquema de Descuento**                               - **Tipo de Gasto**                                      - **Informe de Gasto**                                   - **Recurso**
+- **Tipo de Recurso de Manufactura**                     - **Formato de Impresión**                               - **Gastos (por Facturar)**                              - **Activo Fijo**
+- **Grupo de Activo Fijo**                               - **Entrenamiento**                                      - **Gastos (No Reembolsables)**                          - **Transacciones de Balances Contables**
+- **Conjunto de Atributos**                              - **Lote**                                               - **Control de Lote**                                    - **Control No. de Serie**
+- **Atributos**                                          - **Búsqueda de Atributo**                               - **Factura de Gastos (Alfa)**                           - **Tipo de Proyecto**
+- **Definición de Documento Recurrente**                 - **Anuncio**                                            - **Tipo de Hora**                                       - **Clic**
+- **Contador Web**                                       - **Programa de Pagos de Facturas**                      - **Categoría de Fletes**                                - **Dimensiones Contables**
+- **Proyecto (Orden)**                                   - **Categoría Conocimiento**                             - **Base de Conocimiento**                               - **Inicio Conocimiento**
+- **Sinónimo Conocimiento**                              - **Información de Socio del Negocio**                   - **Información de Agentes de la Compañía**              - **Documentos sin Aplicar**
+- **Proceso de Flujo de Trabajo**                        - **Registro**                                           - **Remesa de Pagos**                                    - **Tema de Subasta**
+- **Vendedor de la Subasta**                             - **Comprador de la Subasta**                            - **Tema de Solicitud para Cotización**                  - **Solicitud para Cotización**
+- **Suscripción**                                        - **Lista de Distribución**                              - **Paquete**                                            - **Autorización de Devolución de Cliente**
+- **Cálculo de Morosidad**                               - **Requisición**                                        - **Solicitud para Cotización (Con Respuesta)**          - **Ejecutar Distribución**
+- **Acceso al Log**                                      - **Pronóstico de Venta**                                - **Confirmación Entrega/Recepción**                     - **Confirmación de Movimientos**
+- **ANS por Socio del Negocio**                          - **Esquema de Lista de Precios**                        - **Inventario uso Interno**                             - **Facturas por Lote**
+- **Costos de Producto**                                 - **LDM de producto**                                    - **Aviso de Cambio de LDM**                             - **Aviso de Cambio**
+- **Ajuste Instancia de Atributos**                      - **Declaración de Impuestos**                           - **Ver Charla**                                         - **Menú de Rol Web POS**
+- **Propiedades Web POS**                                - **Cheques con Orden de No Cobro (Web POS)**            - **Recurso de Manufactura**                             - **Lista de Materiales y Fórmula**
+- **Datos de Planificación del Producto**                - **Avisos del MRP**                                     - **Orden de Manufactura**                               - **Partes de Repuesto**
+- **Informe Control de Actividades**                     - **Orden de Distribución**                              - **Especificaciones de Calidad**                        - **Colector de Costos**
+- **Red de Distribución**                                - **Grupo de Impuestos**                                 - **Definición de Impuestos**                            - **Tipo Impuesto**
+- **Impuesto Base**                                      - **Procesador de Exportación**                          - **Tipo de Procesador de Exportación**                  - **Tipo de Procesador de Importación**
+- **Contrato**                                           - **Empleado**                                           - **Departamento**                                       - **Puesto**
+- **Catálogo de Conceptos**                              - **Proceso Nómina**                                     - **Definición Nómina**                                  - **Categoría de Conceptos**
+- **Tipo Lista Nómina**                                  - **Lista Nómina**                                       - **Histórico de Nómina**                                - **Procesamiento de Revaluación de Activos**
+- **Índice de Revaluación de Activo**                    - **Entrada de Transferencia de Activo**                 - **Entrada de Disposición de Activo**                   - **Disposición de Activos**
+- **Transferencias de Activo**                           - **Entrada para Dividir un Activo**                     - **Construir Archivo de Depreciación**                  - **Calculo depreciación acumulada**
+- **Construir Pronóstico de Depreciación**               - **Tipo Propagación Período Depreciación**              - **Métodos de Depreciación**                            - **Tablas de Depreciación**
+- **Convenciones Depreciación Primer Año**               - **Método de Cálculo de Depreciación**                  - **Tipo de Cargo**                                      - **Ver Registros MRP**
+- **Terminal PDV Web**                                   - **Flujo de Efectivo**                                  - **Grupo Promoción**                                    - **Promoción**
+- **Definir Cubo**                                       - **Mis Documentos sin Procesar**                        - **Todos los Documentos sin Procesar**                  - **Orden de Salida**
+- **Estructura del Almacén**                             - **Tipo de Area del Almacén**                           - **Tipo de Sección del Almacén**                        - **Definición de Entradas / Salidas**
+- **Reglas de Entradas / Salidas**                       - **Estrategia de Entradas / Salidas**                   - **Devolución Cliente**                                 - **Devolución a Proveedor**
+- **Autorización de Devolución a Proveedor**             - **Mi Perfil**                                          - **Origen de las Órdenes de Venta**                     - **Tipo Relación**
+- **Selección de Pago (RRHH)**                           - **Retención**                                          - **Importar Movimientos de Nómina**                     - **Adición de Activos de Fijos**
+- **Activación o Disposición de Activo**                 - **Asset Change Account**                               - **Asset Class**                                        - **Asset Funding Mode**
+- **Revaluation Asset**                                  - **Asset Type**                                         - **Importar Activos Fijos**                             - **Importar Movimientos de Inventario**
+- **Fact Reconciliation**                                - **Producción (Un Solo Producto)**                      - **Parts and BOMs**                                     - **Importar Lista de Materiales y Fórmulas**
+- **Prueba de Calidad**                                  - **Tipo de Partes**                                     - **Contactos**                                          - **Cliente Potencial**
+- **Etapa de la Venta**                                  - **Oportunidad de Ventas**                              - **Tablero de Ventas**                                  - **Clientes**
+- **Importar Flujo de Trabajo**                          - **Product Classification**                             - **Product Class**                                      - **Product Group**
+- **Importar Historial de Ventas**                       - **Calendario de Operaciones**                          - **Historico de Ventas**                                - **Ejecución simulación del pronóstico**
+- **Regla del Pronóstico**                               - **Definición del Pronóstico**                          - **Vista de demandas del MRP**                          - **Vista de Suministros del MRP**
+- **Recibos Express**                                    - **Análisis de Calidad**                                - **Stocktake (indirect use)**                           - **Importar Presupuesto**
+- **GL Journal**                                         - **Turno de Trabajo**                                   - **Designación**                                        - **Grupo de Turno**
+- **Grupo de Trabajo**                                   - **Nivel de Estudio**                                   - **Tipo de Seguro**                                     - **Carrera**
+- **Grado**                                              - **Estructura Salarial**                                - **Mi Empleado**                                        - **Tipo de Habilidad**
+- **Tipo de Empleado**                                   - **Relación de Empleado**                               - **Nivel de Profesión**                                 - **Educación Laboral**
+- **Solicitud de Empleo**                                - **Tipo de Trabajo**                                    - **Oferta de Trabajo**                                  - **Rango de Salario**
+- **Empleado (Todos)**                                   - **Motivo del Permiso**                                 - **Tipo de Permiso**                                    - **Tareas pendientes**
+- **Importar atributos del Empleado**                    - **Plan de Reabastecimiento**                           - **Tipo de Concepto**                                   - **Ordenes de Producción Planeadas**
+- **Importar Datos de Empleado**                         - **Grupo de Comisión**                                  - **Movimiento al Presupuesto**                          - **Requisito de Transporte**
+- **Transportistas y Vehículos**                         - **Orden de Flete**                                     - **Vehículo**                                           - **Tipo de Vehículo**
+- **Unidad de Transporte**                               - **Compartimiento de Transporte**                       - **Grupo de Compatibilidad de Transporte**              - **Licencia de Transporte**
+- **Tipo de Licencia de Transporte**                     - **Tipo de Requisito de Transporte**                    - **Conductor**                                          - **List Type (LVE)**
+- **Grupo de Proyecto**                                  - **Clase de Proyecto**                                  - **Categoría de Proyecto**                              - **Proyectos**
+- **Categoría del Status de Proyecto**                   - **Definición de Diario de Caja**                       - **Caja**                                               - **Cierre de Caja**
+- **Categoría de Tarea de Proyecto**                     - **Import Project**                                     - **Tipo de Miembro de Proyecto**                        - **Configuración de Reporte de Nómina**
+- **Funcionalidad Financiera**                           - **Categoría de Producto Financiero**                   - **Producto Financiero**                                - **Acuerdo Financiero**
+- **Tipo de Acuerdo Financiero**                         - **Tipo de Estado de Inversión o Préstamo**             - **Cuenta Financiera**                                  - **Lote de Transacción Financiera**
+- **Transacción Financiera**                             - **Tasa Financiera**                                    - **Préstamo**                                           - **Morosidad de Préstamo**
+- **Tipo de Transacción Financiera**                     - **Importar Acuerdos Financieros**                      - **Información del proyecto**                           - **Dividir Activo Fijo**
+- **Registro de Asistencia**                             - **Importar Registro de Asistencia**                    - **Incidencia de Nómina**                               - **Calendario de RRHH**
+- **Solicitud del Permiso**                              - **Tipo de Costos Adicional**                           - **Definición de Retenciones**                          - **Retención Generada**
+- **Tipo de Retención**                                  - **Log de Retención**                                   - **Configuración de Retención de I.V.A**                - **Configuración de Retención de I.S.L.R**
+- **Configuración de Retención Municipal**               - **Registro de Peso**                                   - **Material Receipt (Confirmation)**                    - **Grupo de Vehículo**
+- **Registro de Peso (Todos)**
+======================================================== ======================================================== ======================================================== ========================================================
 
 
 **Gerencia**

@@ -13,4 +13,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     commission/commission-run
     sales-order/index
     generate-invoice-from-departure-order/index
-
+    pos/index

@@ -19,6 +19,15 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     general/rst/index
 
 .. toctree::
+    :caption: GUÍA PRÁCTICA DE ADEMPIERE
+    :maxdepth: 2
+    :numbered:
+
+    adempiere-guides/adempiere
+    adempiere-guides/adempiere-installation-and-configuration
+    adempiere-guides/introduction-to-application-dictionary
+
+.. toctree::
     :caption: ADEMPIERE ERP/CRM
     :maxdepth: 2
     :numbered:
@@ -45,10 +54,3 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     lve/procedures/index
     lve/report/index
     lve/standard-coding/index
-
-.. toctree::
-    :caption: Guía Práctica de ADempiere
-    :maxdepth: 2
-    :numbered:
-
-    adempiere-guides/index

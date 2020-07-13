@@ -6,7 +6,7 @@
 
 La guía práctica de ADempiere contiene los siguientes temas.
 
-- Sobre ADempiere
+- ADempiere
 
 - Requisitos de Instalación
 - Instalación de PostgreSQL
@@ -32,6 +32,7 @@ La guía práctica de ADempiere contiene los siguientes temas.
         - Ventana
         - Pestaña
     - Menú
+    - Resultados
 
 
 - Personalizando Ventanas

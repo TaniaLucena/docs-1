@@ -91,6 +91,741 @@ Entendiendo como cargo, los diferentes conceptos por medio de los cuales se gene
 
 El presente material es elaborado por la empresa ERPyA, el mismo explicará de forma eficiente al usuario la utilidad que representan los tipos de cargos y los diferentes cargos que los conforman, para nuestra localización Venezuela en la versión 3.92 de ADempiere.
 
+**Bancarios**
+-------------
+
+El tipo de cargo "**Bancarios**" se refiere a todos aquellos pagos que las empresas realiza por imposición u obligación, en este se agrupan todos los cargos que desacreditan monetariamente a las empresas por deudas obtenidas por obligación.
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Bancarios**" es utilizado en ADempiere para generar un ajuste de débito a la empresa por parte de un socio de negocio o viceversa.
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Actualmente ADempiere utiliza diecinueve (19) diferentes cargos en el tipo de cargo "**Bancario**" que en su aplicación desacredita a la empresa monetariamente. A continuación son definidos los diferentes cargos pertenecientes al tipo de cargo "**Bancario**".
+
+#. **Afiliación de Beneficiario de Tarjeta Pre-Pagada**
+
+    #. **Definición**
+
+        |Afiliación de Beneficiario de Tarjeta Prepagada|
+
+        Imagen 1. Afiliación de Beneficiario de Tarjeta Prepagada
+
+    #. **Implicación en ADempiere**
+
+        - 
+
+    .. warning::
+
+
+
+#. **Avances de Efectivo en Puntos de Venta**
+
+    #. **Definición**
+
+        |Avances de Efectivo en Puntos de Venta|
+
+        Imagen 2. Avances de Efectivo en Puntos de Venta
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Cancelación de Cuentas**
+
+    #. **Definición**
+
+        Se refiere al pago que realiza una determinada empresa por la cancelación de la cuenta por pagar que la misma tiene pendiente con un socio de negocio.
+
+        |Cancelación de Cuentas|
+
+        Imagen 3. Cancelación de Cuentas
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Cancelación de Cuentas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo cliente con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Cancelación de Cuentas**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el pago referente a la cancelación de las cuentas pendientes que tiene la empresa.
+
+#. **Cheque Devuelto**
+
+    #. **Definición**
+
+        Se refiere al pago o cobro que realiza una determinada empresa a un socio de negocio por cheque devuelto.
+
+        |Cheque Devuelto|
+
+        Imagen 4. Cheque Devuelto
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Cheque Devuelto**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de que el mismo le pague el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Cheque Devuelto**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el pago o cobro referente a cheques devueltos que posee una determinada empresa.
+
+#. **Cheques Devueltos por Falta de Fondos**
+
+    #. **Definición**
+
+        |Cheques Devueltos por Falta de Fondos|
+
+        Imagen 5. Cheques Devueltos por Falta de Fondos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Comisión FLAT**
+
+    #. **Definición**
+
+        Se refiere a la comisión cobrada una sola vez por un negocio, es decir, al momento de la adquisición del mismo.
+
+        |Comisión FLAT|
+
+        Imagen 6. Comisión FLAT
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Comisión FLAT**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Comisión FLAT**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a la comisión FLAT de un determinado negocio.
+
+#. **Consulta en Cajeros**
+
+    #. **Definición**
+
+        |Consulta en Cajeros|
+
+        Imagen 7. Consulta en Cajeros
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Cuota Mantenimiento Mensual**
+
+    #. **Definición**
+
+        Se refiere al gasto que tiene una determinada empresa por mantenimiento mensual de las diferentes cuentas que posee.
+
+        |Cuota Mantenimiento Mensual|
+
+        Imagen 8. Cuota Mantenimiento Mensual
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por pagar el cargo "**Cuota de Mantenimiento Mensual**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a la cuota de mantenimiento mensual por las diferentes cuentas que posee la empresa.
+
+
+#. **Devengado de Intereses Bancarios Internacional**
+
+    #. **Definición**
+
+        |Devengado de Intereses Bancarios Internacional|
+
+        Imagen 9. Devengado de Intereses Bancarios Internacional
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Devengado de Intereses Bancarios Nacional**
+
+    #. **Definición**
+
+        |Devengado de Intereses Bancarios Nacional|
+
+        Imagen 10. Devengado de Intereses Bancarios Nacional
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Emisión de Chequera**
+
+    #. **Definición**
+
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar nuevas chequeras a los diferentes bancos en los que poseen cuentas.
+
+        |Emisión de Chequera|
+
+        Imagen 11. Emisión de Chequera
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por pagar el cargo "**Emisión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a la emisión de chequeras de las diferentes cuentas que poseen las empresas.
+
+#. **Emisión de Chequeras por Dispensadoras**
+
+    #. **Definición**
+
+        |Emisión de Chequeras por Dispensadoras|
+
+        Imagen 12. Emisión de Chequeras por Dispensadoras
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Emisión de Estados de Cuentas**
+
+    #. **Definición**
+
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar los estados de cuentas a los diferentes bancos en los que poseen cuentas.
+
+        |Emisión de Estados de Cuentas|
+
+        Imagen 13. Emisión de Estados de Cuentas
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por pagar el cargo "**Emisión de Estados de Cuentas**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a la emisión de estados de cuentas de las diferentes cuentas que poseen las empresas.
+
+#. **Emisión de Tarjeta Electrónica con Tecnología de Chip**
+
+    #. **Definición**
+
+        |Emisión de Tarjeta Electrónica con Tecnología de Chip|
+
+        Imagen 14. Emisión de Tarjeta Electrónica con Tecnología de Chip
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Impuesto a las Grandes Transacciones Financieras**
+
+    #. **Definición**
+
+        Se refiere al porcentaje que los bancos recibirán de las diferentes cuentas que poseen las personas jurídicas o aquellos contribuyentes especiales del SENIAT, cuando realizan algun débito o retiro alto.
+
+        |IGTF|
+
+        Imagen 15. Impuesto a las Grandes Transacciones Financieras
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Impuesto a las Grandes Transacciones Financieras**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Impuesto a las Grandes Transacciones Financieras**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente al impuesto a las grandes transacciones financieras de las diferentes empresas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#. **Impuesto de Activos de Empresas**
+
+    #. **Definición**
+
+        Se refiere al gasto que tienen las empresas por el pago de impuestos de los diferentes activos que poseen.
+
+        |Impuesto de Activos de Empresas|
+
+        Imagen 70. Impuesto de Activos de Empresas
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Impuesto de Activos de Empresas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Impuesto de Activos de Empresas**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a los impuestos de activos de empresas. 
+
+#. **Impuesto de la Ley Orgánica Antidrogas**
+
+    #. **Definición**
+
+        Se refiere a los pagos que deben realizar las empresas que ocupen cincuenta (50) trabajadores o más, el mismo debe efectuarse dentro de los sesenta (60) días continuos de finalizado el ejercicio fiscal.
+
+        |Impuesto de la Ley Orgánica Antidrogas|
+
+        Imagen 71. Impuesto de la Ley Orgánica Antidrogas
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Impuesto de la Ley Orgánica Antidrogas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Impuesto de la Ley Orgánica Antidrogas**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a los impuestos de la ley orgánica antidrogas.
+
+#. **Impuesto Ley del Deporte**
+
+    #. **Definición**
+
+        Se refiere a los pagos y declaraciones que realizan las empresas con fines de lucro dentro de los ciento veinte (120) días continuos de finalizado el ejercicio fiscal.
+
+        |Impuesto Ley del Deporte|
+
+        Imagen 72. Impuesto Ley del Deporte
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Impuesto Ley del Deporte**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Impuesto Ley del Deporte**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a los impuestos de la ley del deporte.
+
+#. **Impuesto LOCTI**
+
+    #. **Definición**
+
+        Se refiere a los pagos y declaraciones que realizan las empresas dentro del segundo trimestre de cada año, el porcentaje del mismo depende de la actividad económica de la empresa.
+
+        |Impuesto LOCTI|
+
+        Imagen 73. Impuesto LOCTI
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Impuesto LOCTI**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Impuesto LOCTI**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a los impuestos de la LOCTI.
+
+#. **Impuesto Municipal**
+
+    #. **Definición**
+
+        Se refiere a los pagos y declaraciones que realizan las empresas de acuerdo a su actividad y al porcentaje de retención que manejen los diferentes municipios.
+
+        |Impuesto Municipal|
+
+        Imagen 74. Impuesto Municipal
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Impuesto Municipal**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Impuesto Municipal**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a los impuestos municipales.
+
+#. **Impuesto Sobre la Renta**
+
+    #. **Definición**
+
+        Se refiere a los pagos y declaraciones que realizan las empresas del treinta y cuatro por ciento (34%) de la renta neta fiscal.
+
+        |Impuesto Sobre la Renta|
+
+        Imagen 75. Impuesto Sobre la Renta
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Impuesto Sobre la Renta**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Impuesto Sobre la Renta**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente al impuesto sobre la renta.
+
+#. **Intereses**
+
+    #. **Definición**
+
+        Se refiere a los intereses que se generan de las cuentas por cobrar y las cuentas pagar de las empresas.
+
+        |Intereses|
+
+        Imagen 76. Intereses
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Intereses**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Intereses**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a los intereses que deben cobrar o pagar las empresas.
+
+#. **Intereses Moratorios**
+
+    #. **Definición**
+
+        Se refiere a los montos que deben ser pagados o cobrados por demoras o impuntualidad de pagos de las empresas.
+
+        |Intereses Moratorios|
+
+        Imagen 77. Intereses Moratorios
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Intereses Moratorios**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Intereses Moratorios**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a los intereses moratorios que deben cobrar o pagar las empresas.
+
+#. **Multas y Sanciones**
+
+    #. **Definición**
+
+        Se refiere a las multas y sanciones aplicadas a la empresa por faltas que la misma realice, así como también por incumplicidad de las leyes por parte de la misma.
+
+        |Multas y Sanciones|
+
+        Imagen 78. Multas y Sanciones
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Multas y Sanciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Multas y Sanciones**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a las multas y sanciones que deben pagar las empresas.
+
+#. **Servicio de Abono a Nómina**
+
+    #. **Definición**
+
+        Se refiere al pago de la nómina que las empresas le realizan a sus trabajadores indiferentemente del periodo que las mismas utilicen para pagar.
+
+        |Servicio de Abono a Nómina|
+
+        Imagen 79. Servicio de Abono a Nómina
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por pagar el cargo "**Servicio de Abono a Nómina**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de pagarle al mismo el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente al servicio de abono a nómina de la empresa.
+
+#. **Suspensión de Cheques**
+
+    #. **Definición**
+
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de cheques a los diferentes bancos en los que poseen cuentas.
+
+        |Suspensión de Cheques|
+
+        Imagen 80. Suspensión de Cheques
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por pagar el cargo "**Suspensión de Cheques**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a la suspensión de cheques de las diferentes cuentas que poseen las empresas.
+
+#. **Suspensión de Chequera**
+
+    #. **Definición**
+
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de chequeras a los diferentes bancos en los que poseen cuentas.
+
+        |Suspensión de Chequera|
+
+        Imagen 81. Suspensión de Chequera
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por pagar el cargo "**Suspensión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a la suspensión de chequeras de las diferentes cuentas que poseen las empresas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Recursos Humanos**
 --------------------
 
@@ -1529,391 +2264,3 @@ Actualmente ADempiere utiliza dieciocho (18) diferentes cargos en el tipo de car
 
         Permite reflejar el gasto referente a los servicios legales suministrados en las empresas.
 
-**Bancario**
-------------
-
-El tipo de cargo "**Bancario**" se refiere a todos aquellos pagos que las empresas realiza por imposición u obligación, en este se agrupan todos los cargos que desacreditan monetariamente a las empresas por deudas obtenidas por obligación.
-
-**Comportamiento en ADempiere**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-El tipo de cargo "**Bancario**" es utilizado en ADempiere para generar un ajuste de débito a la empresa por parte de un socio de negocio o viceversa, el ajuste será visualizado en los tipos de documentos nombrados a continuación:
-
-    -  Pagaré Bancario de Cuentas por Pagar
-    -  Ajuste de Crédito de Cuentas por Pagar
-    -  Ajuste de Débito de Cuentas por Pagar
-    -  Ajuste de Crédito de Cuentas por Cobrar
-    -  Ajuste de Débito de Cuentas por Cobrar
-
-**Cargos que contempla**
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Actualmente ADempiere utiliza diecinueve (19) diferentes cargos en el tipo de cargo "**Bancario**" que en su aplicación desacredita a la empresa monetariamente. A continuación son definidos los diferentes cargos pertenecientes al tipo de cargo "**Bancario**".
-
-#. **Cancelación de Cuentas**
-
-    #. **Definición**
-
-        Se refiere al pago que realiza una determinada empresa por la cancelación de la cuenta por pagar que la misma tiene pendiente con un socio de negocio.
-
-        |Cancelación de Cuentas|
-
-        Imagen 63. Cancelación de Cuentas
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Cancelación de Cuentas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo cliente con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Cancelación de Cuentas**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el pago referente a la cancelación de las cuentas pendientes que tiene la empresa.
-
-#. **Cheque Devuelto**
-
-    #. **Definición**
-
-        Se refiere al pago o cobro que realiza una determinada empresa a un socio de negocio por cheque devuelto.
-
-        |Cheque Devuelto|
-
-        Imagen 64. Cheque Devuelto
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Cheque Devuelto**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de que el mismo le pague el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Cheque Devuelto**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el pago o cobro referente a cheques devueltos que posee una determinada empresa.
-
-#. **Comisión FLAT**
-
-    #. **Definición**
-
-        Se refiere a la comisión cobrada una sola vez por un negocio, es decir, al momento de la adquisición del mismo.
-
-        |Comisión FLAT|
-
-        Imagen 65. Comisión FLAT
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Comisión FLAT**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Comisión FLAT**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a la comisión FLAT de un determinado negocio.
-
-#. **Cuota Mantenimiento Mensual**
-
-    #. **Definición**
-
-        Se refiere al gasto que tiene una determinada empresa por mantenimiento mensual de las diferentes cuentas que posee.
-
-        |Cuota Mantenimiento Mensual|
-
-        Imagen 66. Cuota Mantenimiento Mensual
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por pagar el cargo "**Cuota de Mantenimiento Mensual**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a la cuota de mantenimiento mensual por las diferentes cuentas que posee la empresa.
-
-#. **Emisión de Chequera**
-
-    #. **Definición**
-
-        Se refiere al gasto que tienen las empresas cuando necesitan solicitar nuevas chequeras a los diferentes bancos en los que poseen cuentas.
-
-        |Emisión de Chequera|
-
-        Imagen 67. Emisión de Chequera
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por pagar el cargo "**Emisión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a la emisión de chequeras de las diferentes cuentas que poseen las empresas.
-
-#. **Emisión de Estados de Cuentas**
-
-    #. **Definición**
-
-        Se refiere al gasto que tienen las empresas cuando necesitan solicitar los estados de cuentas a los diferentes bancos en los que poseen cuentas.
-
-        |Emisión de Estados de Cuentas|
-
-        Imagen 68. Emisión de Estados de Cuentas
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por pagar el cargo "**Emisión de Estados de Cuentas**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a la emisión de estados de cuentas de las diferentes cuentas que poseen las empresas.
-
-#. **IGTF**
-
-    #. **Definición**
-
-        Se refiere al porcentaje que los bancos recibirán de las diferentes cuentas que poseen las personas jurídicas o aquellos contribuyentes especiales del SENIAT, cuando realizan algun débito o retiro alto.
-
-        |IGTF|
-
-        Imagen 69. IGTF
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**IGTF**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**IGFT**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente al IGTF de las diferentes empresas.
-
-#. **Impuesto de Activos de Empresas**
-
-    #. **Definición**
-
-        Se refiere al gasto que tienen las empresas por el pago de impuestos de los diferentes activos que poseen.
-
-        |Impuesto de Activos de Empresas|
-
-        Imagen 70. Impuesto de Activos de Empresas
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Impuesto de Activos de Empresas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Impuesto de Activos de Empresas**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a los impuestos de activos de empresas. 
-
-#. **Impuesto de la Ley Orgánica Antidrogas**
-
-    #. **Definición**
-
-        Se refiere a los pagos que deben realizar las empresas que ocupen cincuenta (50) trabajadores o más, el mismo debe efectuarse dentro de los sesenta (60) días continuos de finalizado el ejercicio fiscal.
-
-        |Impuesto de la Ley Orgánica Antidrogas|
-
-        Imagen 71. Impuesto de la Ley Orgánica Antidrogas
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Impuesto de la Ley Orgánica Antidrogas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Impuesto de la Ley Orgánica Antidrogas**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a los impuestos de la ley orgánica antidrogas.
-
-#. **Impuesto Ley del Deporte**
-
-    #. **Definición**
-
-        Se refiere a los pagos y declaraciones que realizan las empresas con fines de lucro dentro de los ciento veinte (120) días continuos de finalizado el ejercicio fiscal.
-
-        |Impuesto Ley del Deporte|
-
-        Imagen 72. Impuesto Ley del Deporte
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Impuesto Ley del Deporte**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Impuesto Ley del Deporte**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a los impuestos de la ley del deporte.
-
-#. **Impuesto LOCTI**
-
-    #. **Definición**
-
-        Se refiere a los pagos y declaraciones que realizan las empresas dentro del segundo trimestre de cada año, el porcentaje del mismo depende de la actividad económica de la empresa.
-
-        |Impuesto LOCTI|
-
-        Imagen 73. Impuesto LOCTI
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Impuesto LOCTI**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Impuesto LOCTI**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a los impuestos de la LOCTI.
-
-#. **Impuesto Municipal**
-
-    #. **Definición**
-
-        Se refiere a los pagos y declaraciones que realizan las empresas de acuerdo a su actividad y al porcentaje de retención que manejen los diferentes municipios.
-
-        |Impuesto Municipal|
-
-        Imagen 74. Impuesto Municipal
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Impuesto Municipal**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Impuesto Municipal**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a los impuestos municipales.
-
-#. **Impuesto Sobre la Renta**
-
-    #. **Definición**
-
-        Se refiere a los pagos y declaraciones que realizan las empresas del treinta y cuatro por ciento (34%) de la renta neta fiscal.
-
-        |Impuesto Sobre la Renta|
-
-        Imagen 75. Impuesto Sobre la Renta
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Impuesto Sobre la Renta**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Impuesto Sobre la Renta**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente al impuesto sobre la renta.
-
-#. **Intereses**
-
-    #. **Definición**
-
-        Se refiere a los intereses que se generan de las cuentas por cobrar y las cuentas pagar de las empresas.
-
-        |Intereses|
-
-        Imagen 76. Intereses
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Intereses**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Intereses**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a los intereses que deben cobrar o pagar las empresas.
-
-#. **Intereses Moratorios**
-
-    #. **Definición**
-
-        Se refiere a los montos que deben ser pagados o cobrados por demoras o impuntualidad de pagos de las empresas.
-
-        |Intereses Moratorios|
-
-        Imagen 77. Intereses Moratorios
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Intereses Moratorios**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Intereses Moratorios**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a los intereses moratorios que deben cobrar o pagar las empresas.
-
-#. **Multas y Sanciones**
-
-    #. **Definición**
-
-        Se refiere a las multas y sanciones aplicadas a la empresa por faltas que la misma realice, así como también por incumplicidad de las leyes por parte de la misma.
-
-        |Multas y Sanciones|
-
-        Imagen 78. Multas y Sanciones
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Multas y Sanciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Multas y Sanciones**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a las multas y sanciones que deben pagar las empresas.
-
-#. **Servicio de Abono a Nómina**
-
-    #. **Definición**
-
-        Se refiere al pago de la nómina que las empresas le realizan a sus trabajadores indiferentemente del periodo que las mismas utilicen para pagar.
-
-        |Servicio de Abono a Nómina|
-
-        Imagen 79. Servicio de Abono a Nómina
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por pagar el cargo "**Servicio de Abono a Nómina**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de pagarle al mismo el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente al servicio de abono a nómina de la empresa.
-
-#. **Suspensión de Cheques**
-
-    #. **Definición**
-
-        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de cheques a los diferentes bancos en los que poseen cuentas.
-
-        |Suspensión de Cheques|
-
-        Imagen 80. Suspensión de Cheques
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por pagar el cargo "**Suspensión de Cheques**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a la suspensión de cheques de las diferentes cuentas que poseen las empresas.
-
-#. **Suspensión de Chequera**
-
-    #. **Definición**
-
-        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de chequeras a los diferentes bancos en los que poseen cuentas.
-
-        |Suspensión de Chequera|
-
-        Imagen 81. Suspensión de Chequera
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por pagar el cargo "**Suspensión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a la suspensión de chequeras de las diferentes cuentas que poseen las empresas.

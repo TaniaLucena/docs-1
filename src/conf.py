@@ -88,7 +88,7 @@ pygments_style = 'sphinx'
 #
 #html_theme = 'theme.css'
 #html_theme_path = ['/usr/local/lib/python2.7/site-packages']
-
+html_theme = 'sphinx_rtd_theme'
 
 
 # Theme options are theme-specific and customize the look and feel of a theme

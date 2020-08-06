@@ -369,6 +369,864 @@ Actualmente ADempiere utiliza diecinueve (19) diferentes cargos en el tipo de ca
 
         Permite reflejar el gasto referente al impuesto a las grandes transacciones financieras de las diferentes empresas.
 
+#. **Impuesto Sobre la Renta Bancarios**
+
+    #. **Definición**
+
+        Se refiere a los pagos y declaraciones que realizan las empresas del treinta y cuatro por ciento (34%) de la renta neta fiscal.
+
+        |Impuesto Sobre la Renta|
+
+        Imagen 75. Impuesto Sobre la Renta Bancarios
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Impuesto Sobre la Renta Bancarios**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Impuesto Sobre la Renta Bancarios**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente al impuesto sobre la renta.
+
+#. **Intereses**
+
+    #. **Definición**
+
+        Se refiere a los intereses que se generan de las cuentas por cobrar y las cuentas pagar de las empresas.
+
+        |Intereses|
+
+        Imagen 76. Intereses
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Intereses**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Intereses**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a los intereses que deben cobrar o pagar las empresas.
+
+#. **Intereses Moratorios Bancarios**
+
+    #. **Definición**
+
+        Se refiere a los montos que deben ser pagados o cobrados por demoras o impuntualidad de pagos de las empresas.
+
+        |Intereses Moratorios|
+
+        Imagen 77. Intereses Moratorios
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Intereses Moratorios Bancarios**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Intereses Moratorios Bancarios**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a los intereses moratorios que deben cobrar o pagar las empresas.
+
+#. **Inversiones Bancarias Internacional**
+
+    #. **Definición**
+
+        |Inversiones Bancarias Internacional|
+
+        Imagen 10. Inversiones Bancarias Internacional
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Inversiones Bancarias Nacional**
+
+    #. **Definición**
+
+        |Inversiones Bancarias Nacional|
+
+        Imagen 10. Inversiones Bancarias Nacional
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Multas y Sanciones Bancarias**
+
+    #. **Definición**
+
+        Se refiere a las multas y sanciones aplicadas a la empresa por faltas que la misma realice, así como también por incumplicidad de las leyes por parte de la misma.
+
+        |Multas y Sanciones|
+
+        Imagen 78. Multas y Sanciones
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Multas y Sanciones Bancarias**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Multas y Sanciones Bancarias**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a las multas y sanciones que deben pagar las empresas.
+
+#. **Operaciones a Domiciliación**
+
+    #. **Definición**
+
+        |Operaciones a Domiciliación|
+
+        Imagen 10. Operaciones a Domiciliación
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Otras Comisiones**
+
+    #. **Definición**
+
+        |Otras Comisiones|
+
+        Imagen 10. Otras Comisiones
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Plazos Fijos Internacional**
+
+    #. **Definición**
+
+        |Plazos Fijos Internacional|
+
+        Imagen 10. Plazos Fijos Internacional
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Plazos Fijos Nacional**
+
+    #. **Definición**
+
+        |Plazos Fijos Nacional|
+
+        Imagen 10. Plazos Fijos Nacional
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Préstamo Bancario**
+
+    #. **Definición**
+
+        |Préstamo Bancario|
+
+        Imagen 10. Préstamo Bancario
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Recargo por Entrega de Chequeras a Domicilio**
+
+    #. **Definición**
+
+        |Recargo por Entrega de Chequeras a Domicilio|
+
+        Imagen 10. Recargo por Entrega de Chequeras a Domicilio
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Rechazo (Fondos insuficientes, Clave errada, otros)**
+
+    #. **Definición**
+
+        |Rechazo (fondos insuficientes clave errada otros|
+
+        Imagen 10. Rechazo (Fondos insuficientes, Clave errada, otros)
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Transferencias**
+
+    #. **Definición**
+
+        |Transferencias|
+
+        Imagen 10. Transferencias
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención ISLR**
+
+    #. **Definición**
+
+        Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus socios de negocios tipo proveedores, así como también, el porcentaje de retención que cada uno de los socios de negocios tipo clientes le aplica a la empresa, el monto aplicado en ambas partes es destinado al ente "**SENIAT**".
+
+        |Retención ISLR|
+
+        Imagen 33. Retención ISLR
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Retención ISLR**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de retener un porcentaje de dinero.
+
+        -  En cuentas por pagar el cargo "**Retención ISLR**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de retener un porcentaje de dinero.
+
+    .. warning:: 
+
+        Permite reflejar la retención referente al ISLR aplicada como cliente o por el cliente.
+
+#. **Retiro de Dinero**
+
+    #. **Definición**
+
+        |Retiro de Dinero|
+
+        Imagen 10. Retiro de Dinero
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Abono a Nómina**
+
+    #. **Definición**
+
+        Se refiere al pago de la nómina que las empresas le realizan a sus trabajadores indiferentemente del periodo que las mismas utilicen para pagar.
+
+        |Servicio de Abono a Nómina|
+
+        Imagen 79. Servicio de Abono a Nómina
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por pagar el cargo "**Servicio de Abono a Nómina**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de pagarle al mismo el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente al servicio de abono a nómina de la empresa.
+
+#. **Suspensión de Cheques**
+
+    #. **Definición**
+
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de cheques a los diferentes bancos en los que poseen cuentas.
+
+        |Suspensión de Cheques|
+
+        Imagen 80. Suspensión de Cheques
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por pagar el cargo "**Suspensión de Cheques**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a la suspensión de cheques de las diferentes cuentas que poseen las empresas.
+
+#. **Suspensión de Chequera**
+
+    #. **Definición**
+
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de chequeras a los diferentes bancos en los que poseen cuentas.
+
+        |Suspensión de Chequera|
+
+        Imagen 81. Suspensión de Chequera
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por pagar el cargo "**Suspensión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a la suspensión de chequeras de las diferentes cuentas que poseen las empresas.
+
+#. **Transferencia Entre Cuentas**
+
+    #. **Definición**
+
+        |Transferencia Entre Cuentas|
+
+        Imagen 10. Transferencia Entre Cuentas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Reposición por Extravío, Robo o Deterioro Documentos**
+
+    #. **Definición**
+
+        |Reposición por Extravío Robo o Deterioro Documentos|
+
+        Imagen 10. Reposición por Extravío, Robo o Deterioro Documentos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Caja Accionistas**
+--------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Accionistas**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Préstamos Accionistas**
+
+    #. **Definición**
+
+        |Préstamos Accionistas|
+
+        Imagen 10. Préstamos Accionistas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+**Caja Administración**
+-----------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Administración**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Efectivo en Transito Administración**
+
+    #. **Definición**
+
+        |Efectivo en Transito Administración|
+
+        Imagen 10. Efectivo en Transito Administración
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Administración Ventas**
+------------------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Administración Ventas**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Efectivo en Transito Administración Ventas**
+
+    #. **Definición**
+
+        |Efectivo en Transito Administración Ventas|
+
+        Imagen 10. Efectivo en Transito Administración Ventas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Anticipo de Proveedores**
+--------------------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Anticipo de Proveedores**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Efectivo en Transito Anticipo Proveedores**
+
+    #. **Definición**
+
+        |Efectivo en Transito Anticipo Proveedores|
+
+        Imagen 10. Efectivo en Transito Anticipo Proveedores
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Chica**
+--------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Chica**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Reembolso de Caja Chica**
+
+    #. **Definición**
+
+        |Reembolso de Caja Chica|
+
+        Imagen 10. Reembolso de Caja Chica
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Cobranza**
+-----------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Cobranza**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Efectivo en Transito Cobranza**
+
+    #. **Definición**
+
+        |Efectivo en Transito Cobranza|
+
+        Imagen 10. Efectivo en Transito Cobranza
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Reembolso**
+------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Reembolso**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Efectivo en Transito Reembolso**
+
+    #. **Definición**
+
+        |Efectivo en Transito Reembolso|
+
+        Imagen 10. Efectivo en Transito Reembolso
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Divisas**
+----------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Divisas**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Efectivo en Transito Divisas**
+
+    #. **Definición**
+
+        |Efectivo en Transito Divisas|
+
+        Imagen 10. Efectivo en Transito Divisas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Intercambio de Divisas**
+-------------------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Intercambio de Divisas**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Efectivo en Transito Intercambio de Divisas**
+
+    #. **Definición**
+
+        |Efectivo en Transito Intercambio de Divisas|
+
+        Imagen 10. Efectivo en Transito Intercambio de Divisas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Inter-Compañía**
+-----------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Inter-Compañía**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Préstamos entre Compañía Adquirido**
+
+    #. **Definición**
+
+        |Préstamos entre Compañía Adquirido|
+
+        Imagen 10. Préstamos entre Compañía Adquirido
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Producción**
+-------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Producción**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Efectivo en Tránsito Producción**
+
+    #. **Definición**
+
+        |Efectivo en Tránsito Producción|
+
+        Imagen 10. Efectivo en Tránsito Producción
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Cajas Transito**
+-----------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Cajas Transito**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Anticipo a Tercero**
+
+    #. **Definición**
+
+        |Anticipo a Tercero|
+
+        Imagen 10. Anticipo a Tercero
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Caja Viático**
+----------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Caja Viático**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Efectivo en Transito Viático**
+
+    #. **Definición**
+
+        |Efectivo en Transito Viático|
+
+        Imagen 10. Efectivo en Transito Viático
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+**Consumo de Personal**
+-----------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Consumo de Personal**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Pack de Alimentos de Personal**
+
+    #. **Definición**
+
+        |Pack de Alimentos de Personal|
+
+        Imagen 10. Pack de Alimentos de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -489,342 +1347,6 @@ Actualmente ADempiere utiliza diecinueve (19) diferentes cargos en el tipo de ca
     .. warning:: 
 
         Permite reflejar el gasto referente a los impuestos municipales.
-
-#. **Impuesto Sobre la Renta**
-
-    #. **Definición**
-
-        Se refiere a los pagos y declaraciones que realizan las empresas del treinta y cuatro por ciento (34%) de la renta neta fiscal.
-
-        |Impuesto Sobre la Renta|
-
-        Imagen 75. Impuesto Sobre la Renta
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Impuesto Sobre la Renta**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Impuesto Sobre la Renta**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente al impuesto sobre la renta.
-
-#. **Intereses**
-
-    #. **Definición**
-
-        Se refiere a los intereses que se generan de las cuentas por cobrar y las cuentas pagar de las empresas.
-
-        |Intereses|
-
-        Imagen 76. Intereses
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Intereses**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Intereses**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a los intereses que deben cobrar o pagar las empresas.
-
-#. **Intereses Moratorios**
-
-    #. **Definición**
-
-        Se refiere a los montos que deben ser pagados o cobrados por demoras o impuntualidad de pagos de las empresas.
-
-        |Intereses Moratorios|
-
-        Imagen 77. Intereses Moratorios
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Intereses Moratorios**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Intereses Moratorios**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a los intereses moratorios que deben cobrar o pagar las empresas.
-
-#. **Multas y Sanciones**
-
-    #. **Definición**
-
-        Se refiere a las multas y sanciones aplicadas a la empresa por faltas que la misma realice, así como también por incumplicidad de las leyes por parte de la misma.
-
-        |Multas y Sanciones|
-
-        Imagen 78. Multas y Sanciones
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Multas y Sanciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Multas y Sanciones**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a las multas y sanciones que deben pagar las empresas.
-
-#. **Servicio de Abono a Nómina**
-
-    #. **Definición**
-
-        Se refiere al pago de la nómina que las empresas le realizan a sus trabajadores indiferentemente del periodo que las mismas utilicen para pagar.
-
-        |Servicio de Abono a Nómina|
-
-        Imagen 79. Servicio de Abono a Nómina
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por pagar el cargo "**Servicio de Abono a Nómina**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de pagarle al mismo el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente al servicio de abono a nómina de la empresa.
-
-#. **Suspensión de Cheques**
-
-    #. **Definición**
-
-        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de cheques a los diferentes bancos en los que poseen cuentas.
-
-        |Suspensión de Cheques|
-
-        Imagen 80. Suspensión de Cheques
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por pagar el cargo "**Suspensión de Cheques**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a la suspensión de cheques de las diferentes cuentas que poseen las empresas.
-
-#. **Suspensión de Chequera**
-
-    #. **Definición**
-
-        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de chequeras a los diferentes bancos en los que poseen cuentas.
-
-        |Suspensión de Chequera|
-
-        Imagen 81. Suspensión de Chequera
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por pagar el cargo "**Suspensión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a la suspensión de chequeras de las diferentes cuentas que poseen las empresas.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **Recursos Humanos**
 --------------------
@@ -1603,25 +2125,6 @@ Actualmente ADempiere utiliza catorce (14) diferentes cargos en el tipo de cargo
 
         Permite reflejar la retención referente a INCES que la empresa aplica a cada trabajador de la misma.
 
-#. **Retención ISLR**
-
-    #. **Definición**
-
-        Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus socios de negocios tipo proveedores, así como también, el porcentaje de retención que cada uno de los socios de negocios tipo clientes le aplica a la empresa, el monto aplicado en ambas partes es destinado al ente "**SENIAT**".
-
-        |Retención ISLR|
-
-        Imagen 33. Retención ISLR
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Retención ISLR**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de retener un porcentaje de dinero.
-
-        -  En cuentas por pagar el cargo "**Retención ISLR**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de retener un porcentaje de dinero.
-
-    .. warning:: 
-
-        Permite reflejar la retención referente al ISLR aplicada como cliente o por el cliente.
 
 #. **Retención RPE**
 

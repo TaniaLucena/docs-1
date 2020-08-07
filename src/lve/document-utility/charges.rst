@@ -1072,9 +1072,274 @@ El tipo de cargo "**Consumo de Personal**" es utilizado en ADempiere para genera
 
     #. **Definición**
 
+        Se refiere a una cantidad de alimentos que la empresa le gestiona a sus trabajadores cada cierto tiempo, con la finalidad de beneficiar y motivar a cada uno de ellos.
+
         |Pack de Alimentos de Personal|
 
-        Imagen 10. Pack de Alimentos de Personal
+        Imagen 9. Pack de Alimentos de Personal
+
+    #.  **Implicación en ADempiere**
+
+        -  En cuentas por cobrar el cargo "**Pack de Alimentos de Personal**" es utilizado por un socio de negocio tipo empleado para generar un ajuste de crédito a la empresa con la finalidad de que la misma le reintegre el dinero.
+
+        -  En cuentas por cobrar el cargo "**Pack de Alimentos de Personal**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de que el mismo le pague el dinero que le debe.
+
+        -  En cuentas por pagar el cargo "**Pack de Alimentos de Personal**" es utilizado por la empresa para generar un ajuste de crédito a un socio de negocio tipo empleado con la finalidad de que el mismo le reintegre el dinero.
+
+        -  En cuentas por pagar el cargo "**Pack de Alimentos de Personal**" es utilizado por el socio de negocio tipo empleado para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+
+    .. warning:: 
+
+        Permite reflejar el gasto referente a la compra de alimentos para los trabajadores de la empresa.
+
+**Consumos Internos**
+---------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Consumos Internos**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Insumos Alimenticios**
+
+    #. **Definición**
+
+        |Insumos Alimenticios|
+
+        Imagen 10. Insumos Alimenticios
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Insumos de Comida**
+
+    #. **Definición**
+
+        |Insumos de Comida|
+
+        Imagen 10. Insumos de Comida
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Insumos de Limpieza**
+
+    #. **Definición**
+
+        |Insumos de Limpieza|
+
+        Imagen 10. Insumos de Limpieza
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Insumos de Oficina**
+
+    #. **Definición**
+
+        |Insumos de Oficina|
+
+        Imagen 10. Insumos de Oficina
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Insumos de Reparación**
+
+    #. **Definición**
+
+        |Insumos de Reparación|
+
+        Imagen 10. Insumos de Reparación
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Cuentas por Cobrar**
+----------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Cuentas por Cobrar**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Comisión de Ventas (Ventas)**
+
+    #. **Definición**
+
+        |Comisión de Ventas Ventas|
+
+        Imagen 10. Comisión de Ventas (Ventas)        
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Comisión por Gastos Administrativos**
+
+    #. **Definición**
+
+        |Comisión por Gastos Administrativos|
+
+        Imagen 10. Comisión por Gastos Administrativos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Descuento en Ventas**
+
+    #. **Definición**
+
+        |Descuento en Ventas|
+
+        Imagen 10. Descuento en Ventas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Devengado de Intereses Ventas**
+
+    #. **Definición**
+
+        |Devengado de Intereses Ventas|
+
+        Imagen 10. Devengado de Intereses Ventas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Flete de Mercancía Nacional**
+
+    #. **Definición**
+
+        |Flete de Mercancía Nacional|
+
+        Imagen 10. Flete de Mercancía Nacional
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Intereses de Mora**
+
+    #. **Definición**
+
+        |Intereses de Mora|
+
+        Imagen 10. Intereses de Mora
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Otros Intereses**
+
+    #. **Definición**
+
+        |Otros Intereses|
+
+        Imagen 10. Otros Intereses
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Préstamos por Cobrar**
+
+    #. **Definición**
+
+        |Préstamos por Cobrar|
+
+        Imagen 10. Préstamos por Cobrar
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Cuentas por Pagar**
+---------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Cuentas por Pagar**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Alquiler de Almacenes**
+
+    #. **Definición**
+
+        |Alquiler de Almacenes|
+
+        Imagen 10. Alquiler de Almacenes
 
     #. **Implicación en ADempiere**
 
@@ -1085,68 +1350,1992 @@ El tipo de cargo "**Consumo de Personal**" es utilizado en ADempiere para genera
 
 
 
+#. **Alquiler de Planta Eléctrica**
+
+    #. **Definición**
+
+        |Alquiler de Planta Eléctrica|
+
+        Imagen 10. Alquiler de Planta Eléctrica
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
 
+#. **Alquiler de Planta Productiva**
+
+    #. **Definición**
+
+        |Alquiler de Planta Productiva|
+
+        Imagen 10. Alquiler de Planta Productiva
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
 
+#. **Alquiler de Silos**
+
+    #. **Definición**
+
+        |Alquiler de Silos|
+
+        Imagen 10. Alquiler de Silos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
 
+#. **Aporte FUNDEI**
+
+    #. **Definición**
+
+        |Aporte FUNDEI|
+
+        Imagen 10. Aporte FUNDEI
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
 
+#. **Artículos de Limpieza**
+
+    #. **Definición**
+
+        |Artículos de Limpieza|
+
+        Imagen 10. Artículos de Limpieza
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
 
+#. **Combustible y Lubricantes**
+
+    #. **Definición**
+
+        |Combustible y Lubricantes|
+
+        Imagen 10. Combustible y Lubricantes
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Comisión de Ventas (Compras)**
+
+    #. **Definición**
+
+        |Comisión de Ventas Compras|
+
+        Imagen 10. Comisión de Ventas (Compras)
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Costo de Distribución de Mercancía**
+
+    #. **Definición**
+
+        |Costo de Distribución de Mercancía|
+
+        Imagen 10. Costo de Distribución de Mercancía
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Descuento de Compra Administrativas**
+
+    #. **Definición**
+
+        |Descuento de Compra Administrativas|
+
+        Imagen 10. Descuento de Compra Administrativas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Descuento de Compra de Importación**
+
+    #. **Definición**
+
+        |Descuento de Compra de Importación|
+
+        Imagen 10. Descuento de Compra de Importación
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Descuento de Compra de Nacional**
+
+    #. **Definición**
+
+        |Descuento de Compra de Nacional|
+
+        Imagen 10. Descuento de Compra de Nacional
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Encomienda**
+
+    #. **Definición**
+
+        |Encomienda|
+
+        Imagen 10. Encomienda
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Equipos Tecnológicos**
+
+    #. **Definición**
+
+        |Equipos Tecnológicos|
+
+        Imagen 10. Equipos Tecnológicos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Estacionamiento**
+
+    #. **Definición**
+
+        |Estacionamiento|
+
+        Imagen 10. Estacionamiento
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Flete Mercancía Importado**
+
+    #. **Definición**
+
+        |Flete Mercancía Importado|
+
+        Imagen 10. Flete Mercancía Importado
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Fletes en Compras**
+
+    #. **Definición**
+
+        |Fletes en Compras|
+
+        Imagen 10. Fletes en Compras
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Gas**
+
+    #. **Definición**
+
+        |Gas|
+
+        Imagen 10. Gas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Gasto de Distribución de Mercancía**
+
+    #. **Definición**
+
+        |Gasto de Distribución de Mercancía|
+
+        Imagen 10. Gasto de Distribución de Mercancía
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Gastos Aduanales**
+
+    #. **Definición**
+
+        |Gastos Aduanales|
+
+        Imagen 10. Gastos Aduanales
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
+#. **Honorarios Profesionales**
+
+    #. **Definición**
+
+        |Honorarios Profesionales|
+
+        Imagen 10. Honorarios Profesionales
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Intereses Moratorios de Compra**
+
+    #. **Definición**
+
+        |Intereses Moratorios de Compra|
+
+        Imagen 10. Intereses Moratorios de Compra
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Mantenimiento de Equipos**
+
+    #. **Definición**
+
+        |Mantenimiento de Equipos|
+
+        Imagen 10. Mantenimiento de Equipos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Otros Gastos no Deducibles**
+
+    #. **Definición**
+
+        |Otros Gastos no Deducibles|
+
+        Imagen 10. Otros Gastos no Deducibles
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Peajes**
+
+    #. **Definición**
+
+        |Peajes|
+
+        Imagen 10. Peajes
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Periódicos, Libros y Revistas**
+
+    #. **Definición**
+
+        |Periódicos Libros y Revistas|
+
+        Imagen 10. Periódicos, Libros y Revistas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Póliza de Seguro**
+
+    #. **Definición**
+
+        |Póliza de Seguro|
+
+        Imagen 10. Póliza de Seguro
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Recarga de Extintores**
+
+    #. **Definición**
+
+        |Recarga de Extintores|
+
+        Imagen 10. Recarga de Extintores
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Reparación de Edificación e Instalaciones**
+
+    #. **Definición**
+
+        |Reparación de Edificación e Instalaciones|
+
+        Imagen 10. Reparación de Edificación e Instalaciones
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Reparación de Maquinarias**
+
+    #. **Definición**
+
+        |Reparación de Maquinarias|
+
+        Imagen 10. Reparación de Maquinarias
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Reparación de Planta**
+
+    #. **Definición**
+
+        |Reparación de Planta|
+
+        Imagen 10. Reparación de Planta
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Reparación de Vehículos**
+
+    #. **Definición**
+
+        |Reparación de Vehículos|
+
+        Imagen 10. Reparación de Vehículos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Reproducción y Copias**
+
+    #. **Definición**
+
+        |Reproducción y Copias|
+
+        Imagen 10. Reproducción y Copias
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Seguro de Mercancía**
+
+    #. **Definición**
+
+        |Seguro de Mercancía|
+
+        Imagen 10. Seguro de Mercancía
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Seguros de Flete**
+
+    #. **Definición**
+
+        |Seguros de Flete|
+
+        Imagen 10. Seguros de Flete
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Informática**
+
+    #. **Definición**
+
+        |Servicio de Informática|
+
+        Imagen 10. Servicio de Informática
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Mano de Obra Especializada**
+
+    #. **Definición**
+
+        |Servicio de Mano de Obra Especializada|
+
+        Imagen 10. Servicio de Mano de Obra Especializada
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Mensajeros Externos**
+
+    #. **Definición**
+
+        |Servicio de Mensajeros Externos|
+
+        Imagen 10. Servicio de Mensajeros Externos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio Legales**
+
+    #. **Definición**
+
+        |Servicio Legales|
+
+        Imagen 10. Servicio Legales
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Donaciones a Terceros**
+-------------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Donaciones a Terceros**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Donaciones**
+
+    #. **Definición**
+
+        |Donaciones|
+
+        Imagen 10. Donaciones
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Liberalidades**
+
+    #. **Definición**
+
+        |Liberalidades|
+
+        Imagen 10. Liberalidades
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Nómina**
+----------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Nómina**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Antigüedad por Pagar**
+
+    #. **Definición**
+
+        |Antiguedad por Pagar|
+
+        Imagen 10. Antigüedad por Pagar
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Bono de Alimentación por Pagar**
+
+    #. **Definición**
+
+        |Bono de Alimentación por Pagar|
+
+        Imagen 10. Bono de Alimentación por Pagar
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Comisiones por Pagar**
+
+    #. **Definición**
+
+        |Comisiones por Pagar|
+
+        Imagen 10. Comisiones por Pagar
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Efectivo en Transito Nómina**
+
+    #. **Definición**
+
+        |Efectivo en Transito Nómina|
+
+        Imagen 10. Efectivo en Transito Nómina
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Prestaciones por Pagar**
+
+    #. **Definición**
+
+        |Prestaciones por Pagar|
+
+        Imagen 10. Prestaciones por Pagar
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Sueldos y Salarios por Pagar**
+
+    #. **Definición**
+
+        |Sueldos y Salarios por Pagar|
+
+        Imagen 10. Sueldos y Salarios por Pagar
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Utilidades por Pagar**
+
+    #. **Definición**
+
+        |Utilidades por Pagar|
+
+        Imagen 10. Utilidades por Pagar
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Vacaciones por Pagar**
+
+    #. **Definición**
+
+        |Vacaciones por Pagar|
+
+        Imagen 10. Vacaciones por Pagar
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Obligación Gubernamental**
+----------------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Obligación Gubernamental**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Impuesto a la Actividad Económica**
+
+    #. **Definición**
+
+        |Impuesto a la Actividad Económica|
+
+        Imagen 10. Impuesto a la Actividad Económica
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Impuesto a los Grandes Patrimonios**
+
+    #. **Definición**
+
+        |Impuesto a los Grandes Patrimonios|
+
+        Imagen 10. Impuesto a los Grandes Patrimonios
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Impuesto de Activos de Empresas**
+
+    #. **Definición**
+
+        |Impuesto de Activos de Empresas|
+
+        Imagen 10. Impuesto de Activos de Empresas
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Impuesto de Ley Orgánica Antidroga**
+
+    #. **Definición**
+
+        |Impuesto de Ley Orgánica Antidroga|
+
+        Imagen 10. Impuesto de Ley Orgánica Antidroga
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Impuesto Ley del Deporte**
+
+    #. **Definición**
+
+        |Impuesto Ley del Deporte|
+
+        Imagen 10. Impuesto Ley del Deporte
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Impuesto Municipal**
+
+    #. **Definición**
+
+        |Impuesto Municipal|
+
+        Imagen 10. Impuesto Municipal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Impuesto Orgánica de Ciencia, Tecnología e Innovación**
+
+    #. **Definición**
+
+        |Impuesto Orgánica de Ciencia Tecnología e Innovación|
+
+        Imagen 10. Impuesto Orgánica de Ciencia, Tecnología e Innovación
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Impuestos, Tasas y Contibuciones**
+
+    #. **Definición**
+
+        |Impuestos Tasas y Contibuciones|
+
+        Imagen 10. Impuestos, Tasas y Contibuciones
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Multas y Sanciones Gubernamentales**
+
+    #. **Definición**
+
+        |Multas y Sanciones Gubernamentales|
+
+        Imagen 10. Multas y Sanciones Gubernamentales
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Tributos Tasas Aduanales**
+
+    #. **Definición**
+
+        |Tributos Tasas Aduanales|
+
+        Imagen 10. Tributos Tasas Aduanales
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Obsequios a Terceros**
+------------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Obsequios a Terceros**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Obsequios de Personal**
+
+    #. **Definición**
+
+        |Obsequios de Personal|
+
+        Imagen 10. Obsequios de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Obsequios de Terceros**
+
+    #. **Definición**
+
+        |Obsequios de Terceros|
+
+        Imagen 10. Obsequios de Terceros
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Parafiscales**
+----------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Parafiscales**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Aporte RPE**
+
+    #. **Definición**
+
+        |Aporte RPE|
+
+        Imagen 10. Aporte RPE
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Aporte RPVH**
+
+    #. **Definición**
+
+        |Aporte RPVH|
+
+        Imagen 10. Aporte RPVH
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Aporte SSO**
+
+    #. **Definición**
+
+        |Aporte SSO|
+
+        Imagen 10. Aporte SSO
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Gasto Aporte INCES**
+
+    #. **Definición**
+
+        |Gasto Aporte INCES|
+
+        Imagen 10. Gasto Aporte INCES
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Pasivo Aporte INCES**
+
+    #. **Definición**
+
+        |Pasivo Aporte INCES|
+
+        Imagen 10. Pasivo Aporte INCES
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención INCES**
+
+    #. **Definición**
+
+        |Retención INCES|
+
+        Imagen 10. Retención INCES
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención ISLR Nómina**
+
+    #. **Definición**
+
+        |Retención ISLR Nómina|
+
+        Imagen 10. Retención ISLR Nómina
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención RPE**
+
+    #. **Definición**
+
+        |Retención RPE|
+
+        Imagen 10. Retención RPE
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención RPVH**
+
+    #. **Definición**
+
+        |Retención RPVH|
+
+        Imagen 10. Retención RPVH
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención SSO**
+
+    #. **Definición**
+
+        |Retención SSO|
+
+        Imagen 10. Retención SSO
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Publicidad**
+--------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Publicidad**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Marketing Redes Sociales**
+
+    #. **Definición**
+
+        |Marketing Redes Sociales|
+
+        Imagen 10. Marketing Redes Sociales
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Publicidad en Revista/Periódico**
+
+    #. **Definición**
+
+        |Publicidad en Revista Periódico|
+
+        Imagen 10. Publicidad en Revista/Periódico
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Publicidad Radio**
+
+    #. **Definición**
+
+        |Publicidad Radio|
+
+        Imagen 10. Publicidad Radio
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Publicidad Televisión**
+
+    #. **Definición**
+
+        |Publicidad Televisión|
+
+        Imagen 10. Publicidad Televisión
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Publicidad Valla**
+
+    #. **Definición**
+
+        |Publicidad Valla|
+
+        Imagen 10. Publicidad Valla
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Recursos Humanos**
+--------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Recursos Humanos**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Adiestramiento de Personal**
+
+    #. **Definición**
+
+        |Adiestramiento de Personal|
+
+        Imagen 10. Adiestramiento de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Alimentación (Extra-Tiempos) de Personal**
+
+    #. **Definición**
+
+        |Alimentación Extra-Tiempos de Personal|
+
+        Imagen 10. Alimentación (Extra-Tiempos) de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Capacitación de Personal**
+
+    #. **Definición**
+
+        |Capacitación de Personal|
+
+        Imagen 10. Capacitación de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Comisión a Intermediarios de Nómina**
+
+    #. **Definición**
+
+        |Comisión a Intermediarios de Nómina|
+
+        Imagen 10. Comisión a Intermediarios de Nómina
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Cuentas por Pagar a Intermediarios de Nómina**
+
+    #. **Definición**
+
+        |Cuentas por Pagar a Intermediarios de Nómina|
+
+        Imagen 10. Cuentas por Pagar a Intermediarios de Nómina
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Emisión Especial Intermediarios de Nómina**
+
+    #. **Definición**
+
+        |Emisión Especial Intermediarios de Nómina|
+
+        Imagen 10. Emisión Especial Intermediarios de Nómina
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **HCM de Personal**
+
+    #. **Definición**
+
+        |HCM de Personal|
+
+        Imagen 10. HCM de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Hospedaje de Personal**
+
+    #. **Definición**
+
+        |Hospedaje de Personal|
+
+        Imagen 10. Hospedaje de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Juguetes de Dependiente de Personal**
+
+    #. **Definición**
+
+        |Juguetes de Dependiente de Personal|
+
+        Imagen 10. Juguetes de Dependiente de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Matrícula de Guardería de Dependiente de Personal**
+
+    #. **Definición**
+
+        |Matrícula de Guardería de Dependiente de Personal|
+
+        Imagen 10. Matrícula de Guardería de Dependiente de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Préstamo Empleado**
+
+    #. **Definición**
+
+        |Préstamo Empleado|
+
+        Imagen 10. Préstamo Empleado
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Recreación de Personal**
+
+    #. **Definición**
+
+        |Recreación de Personal|
+
+        Imagen 10. Recreación de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Re-Expedición Intermediarios de Nómina**
+
+    #. **Definición**
+
+        |Re-Expedición Intermediarios de Nómina|
+
+        Imagen 10. Re-Expedición Intermediarios de Nómina
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Reintegro de Indemnizaciones**
+
+    #. **Definición**
+
+        |Reintegro de Indemnizaciones|
+
+        Imagen 10. Reintegro de Indemnizaciones
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio Funerario de Personal**
+
+    #. **Definición**
+
+        |Servicio Funerario de Personal|
+
+        Imagen 10. Servicio Funerario de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicios de Boletos Aéreos**
+
+    #. **Definición**
+
+        |Servicios de Boletos Aéreos|
+
+        Imagen 10. Servicios de Boletos Aéreos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicios de Estudios Médicos**
+
+    #. **Definición**
+
+        |Servicios de Estudios Médicos|
+
+        Imagen 10. Servicios de Estudios Médicos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicios Logísticos**
+
+    #. **Definición**
+
+        |Servicios Logísticos|
+
+        Imagen 10. Servicios Logísticos
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Taxi por Extra-Tiempos de Personal**
+
+    #. **Definición**
+
+        |Taxi por Extra Tiempos de Personal|
+
+        Imagen 10. Taxi por Extra-Tiempos de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Transporte de Personal**
+
+    #. **Definición**
+
+        |Transporte de Personal|
+
+        Imagen 10. Transporte de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Uniforme Personal**
+
+    #. **Definición**
+
+        |Uniforme Personal|
+
+        Imagen 10. Uniforme Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Útiles Escolares de Dependiente de Personal**
+
+    #. **Definición**
+
+        |Útiles Escolares de Dependiente de Personal|
+
+        Imagen 10. Útiles Escolares de Dependiente de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Viajes Internacionales**
+
+    #. **Definición**
+
+        |Viajes Internacionales|
+
+        Imagen 10. Viajes Internacionales
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Viajes Nacionales**
+
+    #. **Definición**
+
+        |Viajes Nacionales|
+
+        Imagen 10. Viajes Nacionales
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Viáticos de Personal**
+
+    #. **Definición**
+
+        |Viáticos de Personal|
+
+        Imagen 10. Viáticos de Personal
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Requisiones Internas**
+------------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Requisiones Internas**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+**Retenciones Comerciales**
+---------------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Retenciones Comerciales**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Retención IAE CxC**
+
+    #. **Definición**
+
+        |Retención IAE CxC|
+
+        Imagen 10. Retención IAE CxC
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención IAE CxP**
+
+    #. **Definición**
+
+        |Retención IAE CxP|
+
+        Imagen 10. Retención IAE CxP
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención ISLR CxC**
+
+    #. **Definición**
+
+        |Retención ISLR CxC|
+
+        Imagen 10. Retención ISLR CxC
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención ISLR CxP**
+
+    #. **Definición**
+
+        |Retención ISLR CxP|
+
+        Imagen 10. Retención ISLR CxP
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención IVA CxC**
+
+    #. **Definición**
+
+        |Retención IVA CxC|
+
+        Imagen 10. Retención IVA CxC
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Retención IVA CxP**
+
+    #. **Definición**
+
+        |Retención IVA CxP|
+
+        Imagen 10. Retención IVA CxP
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+**Servicios Básicos**
+---------------------------
+
+**Comportamiento en ADempiere**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El tipo de cargo "**Servicios Básicos**" es utilizado en ADempiere para generar un 
+
+**Cargos que contempla**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. **Servicio de Agua**
+
+    #. **Definición**
+
+        |Servicio de Agua|
+
+        Imagen 10. Servicio de Agua
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Agua Potable**
+
+    #. **Definición**
+
+        |Servicio de Agua Potable|
+
+        Imagen 10. Servicio de Agua Potable
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Alquiler**
+
+    #. **Definición**
+
+        |Servicio de Alquiler|
+
+        Imagen 10. Servicio de Alquiler
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Aseo Urbano**
+
+    #. **Definición**
+
+        |Servicio de Aseo Urbano|
+
+        Imagen 10. Servicio de Aseo Urbano
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Cisterna de Agua**
+
+    #. **Definición**
+
+        |Servicio de Cisterna de Agua|
+
+        Imagen 10. Servicio de Cisterna de Agua
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Internet**
+
+    #. **Definición**
+
+        |Servicio de Internet|
+
+        Imagen 10. Servicio de Internet
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Limpieza y Mantenimiento**
+
+    #. **Definición**
+
+        |Servicio de Limpieza y Mantenimiento|
+
+        Imagen 10. Servicio de Limpieza y Mantenimiento
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Luz**
+
+    #. **Definición**
+
+        |Servicio de Luz|
+
+        Imagen 10. Servicio de Luz
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Telefonía**
+
+    #. **Definición**
+
+        |Servicio de Telefonía|
+
+        Imagen 10. Servicio de Telefonía
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Televisora**
+
+    #. **Definición**
+
+        |Servicio de Televisora|
+
+        Imagen 10. Servicio de Televisora
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
+
+
+
+#. **Servicio de Vigilancia**
+
+    #. **Definición**
+
+        |Servicio de Vigilancia|
+
+        Imagen 10. Servicio de Vigilancia
+
+    #. **Implicación en ADempiere**
+
+        -
+
+    .. warning::
 
 
 
@@ -1564,29 +3753,7 @@ Actualmente ADempiere utiliza diecisiete (17) diferentes cargos en tipo de cargo
 
         Permite reflejar el gasto referente a la compra de obsequios para los trabajadores de la empresa.
 
-#. **Pack de Alimentos de Personal**
 
-    #. **Definición**
-
-        Se refiere a una cantidad de alimentos que la empresa le gestiona a sus trabajadores cada cierto tiempo, con la finalidad de beneficiar y motivar a cada uno de ellos.
-
-        |Pack de Alimentos de Personal|
-
-        Imagen 9. Pack de Alimentos de Personal
-
-    #.  **Implicación en ADempiere**
-
-        -  En cuentas por cobrar el cargo "**Pack de Alimentos de Personal**" es utilizado por un socio de negocio tipo empleado para generar un ajuste de crédito a la empresa con la finalidad de que la misma le reintegre el dinero.
-
-        -  En cuentas por cobrar el cargo "**Pack de Alimentos de Personal**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de que el mismo le pague el dinero que le debe.
-
-        -  En cuentas por pagar el cargo "**Pack de Alimentos de Personal**" es utilizado por la empresa para generar un ajuste de crédito a un socio de negocio tipo empleado con la finalidad de que el mismo le reintegre el dinero.
-
-        -  En cuentas por pagar el cargo "**Pack de Alimentos de Personal**" es utilizado por el socio de negocio tipo empleado para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
-
-    .. warning:: 
-
-        Permite reflejar el gasto referente a la compra de alimentos para los trabajadores de la empresa.
 
 #. **Recreación de Personal**
 

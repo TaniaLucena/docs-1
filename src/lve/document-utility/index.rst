@@ -13,5 +13,5 @@ Esta documentación está destinada a definir la utilidad de cada uno de los doc
     product-category
     group-of-business-partners
     charges/index
-    document-type/index
+    document-type
     roles/index

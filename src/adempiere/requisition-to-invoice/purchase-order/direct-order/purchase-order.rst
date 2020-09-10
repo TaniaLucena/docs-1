@@ -18,7 +18,7 @@
 .. |Campo Prioridad| image:: resources/prioridad.png
 .. |Campo Lista de Precios| image:: resources/campolistadeprecios.png
 .. |Campo Moneda| image:: resources/cmoneda.png
-.. |Campo Agente Compañia| image:: resources/Agentecompañia.png
+.. |Campo Agente Compañia| image:: resources/Agentecompania.png
 .. |Campo Término de Pago| image:: resources/terminodepago.png
 .. |Línea de la Orden de Compra| image:: resources/linea.png
 .. |Campo Cantidad| image:: resources/cantidad.png

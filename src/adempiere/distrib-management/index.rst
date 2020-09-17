@@ -1,4 +1,4 @@
-.. _src/adempiere/distribution-management:
+.. _src/adempiere/distrib-management:
 
 ===========================
 **Gestión de Distribución**

@@ -25,7 +25,9 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
     adempiere/basic-steps/index
     adempiere/master/index
-    adempiere/quality-management/index
+    adempiere/open-items/index
+
+
 
 
 
@@ -36,13 +38,6 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
     lve/document-utility/index
     lve/fiscal-printer/index
-    lve/procedures/index
-    lve/report/index
+
+
     lve/standard-coding/index
-
-.. toctree::
-    :caption: E-commerce
-    :maxdepth: 2
-    :numbered:
-
-    ecommerce/index

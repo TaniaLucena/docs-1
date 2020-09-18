@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/material-management/internal-use-inventory:
+.. _src/adempiere/material-management/internal-inventory:
 
 =============================
 **Inventario de Uso Interno**
@@ -16,4 +16,4 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 .. toctree::
     :maxdepth: 2
 
-    internal-use-inventory
+    internal-inventory

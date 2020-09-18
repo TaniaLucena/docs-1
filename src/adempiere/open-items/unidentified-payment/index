@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/open-items/unidentified-payment-collection:
+.. _src/adempiere/open-items/unidentified-payment:
 
 =================================
 **Pagos/Cobros sin Indentificar**
@@ -12,4 +12,4 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 .. toctree::
     :maxdepth: 2
     
-    unidentified-payment-collection-identification
+    unidentified-payment

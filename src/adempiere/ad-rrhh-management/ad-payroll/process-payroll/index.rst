@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/human-resources-management/payroll/process-payroll:
+.. _src/adempiere/ad-rrhh-management/ad-payroll/process-payroll:
 
 =====================
 **Proceso de Nómina**

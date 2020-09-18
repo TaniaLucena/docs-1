@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/human-resources-management:
+.. _src/adempiere/ad-rrhh-management:
 
 ===============================
 **Gestión de Recursos Humanos**
@@ -12,4 +12,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     :maxdepth: 2
 
 
-    payroll/index
+    ad-payroll/index

@@ -16,7 +16,7 @@ Para conocer mejor este procedimiento de la selección de pagos `ERPyA`_ ofrece 
 .. toctree::
     :maxdepth: 2
 
-    payment-order-from-purchase-order
+    from-purchase-order
     pay-order
-    payment-selection-payroll
+    selection-payroll
     payment-selection-cxp

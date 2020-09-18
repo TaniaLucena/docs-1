@@ -12,6 +12,6 @@ El préstamo en ADempiere pueden ser generados de dos formas, en la definición 
     loan-requirements
     loan-running
     loan
-    generate-payment-selection
+    ge-payment-selection
     generate-payment
     generate-invoice

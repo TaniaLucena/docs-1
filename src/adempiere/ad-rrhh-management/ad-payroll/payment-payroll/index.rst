@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/human-resources-management/payroll/payment-payroll:
+.. _src/adempiere/ad-rrhh-management/ad-payroll/payment-payroll:
 
 ===================
 **Pagos de Nómina**

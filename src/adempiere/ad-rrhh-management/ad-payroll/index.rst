@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/human-resources-management/payroll:
+.. _src/adempiere/ad-rrhh-management/ad-payroll:
 
 ==========
 **Nómina**

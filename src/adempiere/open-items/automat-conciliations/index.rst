@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/open-items/automatic-conciliations:
+.. _src/adempiere/open-items/automat-conciliations:
 
 ==============================
 **Conciliaciones Automáticas**
@@ -23,4 +23,4 @@ ERPyA pretende ofrecer una explicación eficiente a nuestros clientes del proced
 
     download
     conciliation
-    create-payments-from-account-statement
+    account-statement

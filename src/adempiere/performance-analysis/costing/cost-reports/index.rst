@@ -13,7 +13,7 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     product-cost-inquiry
     product-cost-report
     product-cost
-    inventory-valuation-at-effective-date
+    valuation-at-date
     transaction-valuation
     product-cost-detail
-    cost-transaction-detail
+    cost-transaction

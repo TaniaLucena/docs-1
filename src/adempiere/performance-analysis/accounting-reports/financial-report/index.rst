@@ -18,7 +18,7 @@ Es por ello que `ERPyA`_ ha diseñado para usted una gama de instructivos en los
 .. toctree::
     :maxdepth: 2
 
-    generate-financial-report
+    financial-report
     checking-balance
     balance-sheet
     statement-of-income

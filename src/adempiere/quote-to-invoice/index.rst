@@ -13,7 +13,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     sales-region/index
     sales-order/index
     invoice-customer/index
-    generate-invoice-from-departure-order
+    invoi-departure-order
     shipment/index
     credit-note-cxc
     debit-note-cxc

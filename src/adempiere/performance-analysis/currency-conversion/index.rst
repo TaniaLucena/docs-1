@@ -11,4 +11,4 @@ ADempiere permite definir diferentes conversiones monetarias y estas a su vez, d
     :maxdepth: 2
 
     currency-conversion
-    automatic-conversion-rate
+    automatic-conversion

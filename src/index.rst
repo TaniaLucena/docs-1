@@ -31,7 +31,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/distrib-management/index
     adempiere/quote-to-invoice/index
     adempiere/pos-management/index
-    adempiere/requisition-to-invoice/index
+    adempiere/requisition-invoice/index
     adempiere/returns/index
     adempiere/open-items/index
     adempiere/loan-management/index

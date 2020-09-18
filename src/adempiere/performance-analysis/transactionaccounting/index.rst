@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/performance-analysis/transaction-accounting:
+.. _src/adempiere/performance-analysis/transactionaccounting:
 
 =================================
 **Contabilidad de Transacciones**

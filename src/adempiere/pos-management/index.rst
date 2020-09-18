@@ -19,12 +19,12 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
 .. toctree::
     :maxdepth: 2
 
-    point-of-sale-terminal
+    point-terminal
     opening-cash
-    point-of-sale-interface
+    point-interface
     pos
-    void-sales-transaction
-    create-new-return-order
+    void-transaction
+    create-new-return
     complete-ready-order
-    withdrawal-of-funds-from-the-point-of-sale
+    withdrawal-of-funds
     closing-cash

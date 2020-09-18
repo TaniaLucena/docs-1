@@ -20,14 +20,14 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
 
     type-of-application
     accounting-element/index
-    opening-accounting-period
+    opening-period
     unposted-documents
     accounting-dimensions
-    accounting-combination
+    accountingcombination
     currency-conversion/index
     gl-distribution/index
-    accounting-setup-master/index
-    transaction-accounting/index
+    setup-master/index
+    transactionaccounting/index
     costing/index
     gl-journal-batch/index
     accounting-reports/index

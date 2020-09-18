@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/performance-analysis/accounting-setup-master:
+.. _src/adempiere/performance-analysis/-setup-master:
 
 =====================================
 **Configuración Contable (Maestros)**
@@ -12,10 +12,10 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 
     charge
     product
-    business-partner-customer
-    business-partner-vendor
-    business-partner-employee
-    payroll-concept-catalog
+    customer
+    vendor
+    employee
+    concept-catalog
     bank-account
     cash
     tax

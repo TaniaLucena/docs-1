@@ -10,9 +10,9 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 .. toctree::
     :maxdepth: 2
 
-    accounting-entries-detail
+    entries-detail
     statement-of-accounts
     trial-balance
     journal-entry-journal
-    accounting-entry-by-period
-    unconciled-accounting-records
+    entry-by-period
+    accounting-records

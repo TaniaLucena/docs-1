@@ -1,4 +1,4 @@
-.. _src/adempiere/requisition-to-invoice:
+.. _src/adempiere/requisition-invoice:
 
 ======================
 **Gestión de Compras**
@@ -14,6 +14,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     purchase-order/index
     invoice/index
     material-receipt/index
-    assign-purchase-order-receipt-invoice
+    assign-receiptinvoice
     credit-note-cxp
     debit-note-cxp

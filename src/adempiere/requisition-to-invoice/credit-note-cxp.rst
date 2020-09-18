@@ -131,7 +131,7 @@ A continuación es explicado el procedimiento para generar en ADempiere, una not
 
         Imagen 9. Campo Descripción de la Ventana Documentos por Pagar
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_.
 
         |Campo Tipo de Documento Destino de la Nota de Crédito de CxP|
 
@@ -411,7 +411,7 @@ A continuación es explicado el procedimiento para generar en ADempiere, una not
         Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar
 
 **Consultar Asignación de Nota de Crédito Aplicada**
----------------------------------------------------
+----------------------------------------------------
 
 #. Ubique el registro de la factura asociada a la nota de crédito, en este caso se ubica la factura "**1000108**" y posteriormente seleccione la pestaña "**Pagos Asignados**".
 

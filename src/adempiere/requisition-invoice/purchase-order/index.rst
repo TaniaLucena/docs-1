@@ -1,4 +1,4 @@
-.. _src/adempiere/requisition-to-invoice/purchase-order:
+.. _src/adempiere/requisition-invoice/purchase-order:
 
 =====================
 **Órdenes de Compra**

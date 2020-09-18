@@ -1,4 +1,4 @@
-.. _src/adempiere/requisition-to-invoice/request-for-quotation:
+.. _src/adempiere/requisition-invoice/request-for-quotation:
 
 =======================================
 **Solicitud de Cotización a Proveedor**

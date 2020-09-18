@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/requisition-to-invoice/requisition:
+.. _src/adempiere/requisition-invoice/requisition:
 
 ========================
 **Requisición a Compra**

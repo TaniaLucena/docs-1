@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/requisition-to-invoice/purchase-order/direct-order:
+.. _src/adempiere/requisition-invoice/purchase-order/direct-order:
 
 ===========================
 **Orden de Compra Directa**

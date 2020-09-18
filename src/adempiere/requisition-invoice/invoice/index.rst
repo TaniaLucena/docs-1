@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/requisition-to-invoice/invoice:
+.. _src/adempiere/requisition-invoice/invoice:
 
 =======================
 **Documento por Pagar**
@@ -13,4 +13,4 @@ En ADempiere es posible generar una factura de cuentas por pagar de forma direct
     :maxdepth: 2
 
     invoice
-    create-document-payable-from-purchase-order
+    from-purchase-order

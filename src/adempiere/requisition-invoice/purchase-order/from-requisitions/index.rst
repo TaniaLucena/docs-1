@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/requisition-to-invoice/purchase-order/create-purchase-orders-from-requisitions:
+.. _src/adempiere/requisition-invoice/purchase-order/from-requisitions:
 
 ===========================================
 **Crear Orden de Compra desde Requisición**
@@ -16,4 +16,4 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 .. toctree::
     :maxdepth: 2
 
-    create-purchase-orders-from-requisitions
+    from-requisitions
